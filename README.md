@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is Veta a modern digital platform designed to bridge the gap between skilled professionals and companies by creating a centralized ecosystem for discovering talent, accessing opportunities, participating in real-world challenges, and building meaningful professional connections..
 
 ## Getting Started
 
