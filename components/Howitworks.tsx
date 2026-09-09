@@ -46,7 +46,10 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="w-full overflow-hidden bg-[#f7faff] py-20 sm:py-24 lg:py-[110px]">
+    <section
+      id="how-it-works"
+      className="w-full overflow-hidden bg-[#f7faff] py-20 sm:py-24 lg:py-[110px]"
+    >
       <div className="mx-auto w-full max-w-[1400px] px-5 sm:px-8 lg:px-10">
         {/* Header */}
         <div className="max-w-[550px]">

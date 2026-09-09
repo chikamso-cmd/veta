@@ -118,7 +118,10 @@ export default function ForProfessionals() {
         {/* =====================================================
             RIGHT IMAGE
         ====================================================== */}
-        <div className="relative min-h-[430px] overflow-hidden sm:min-h-[550px] lg:min-h-[620px]">
+        <div
+          id="professionals"
+          className="relative min-h-[430px] overflow-hidden sm:min-h-[550px] lg:min-h-[620px]"
+        >
           <Image
             src="/assets/professional.png"
             alt="Professional working on a real-world challenge"

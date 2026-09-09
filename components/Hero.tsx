@@ -17,9 +17,9 @@ export default function Hero() {
     <section className="relative isolate overflow-hidden bg-[#050c14] text-white">
       <div
         className="absolute inset-0 -z-20 bg-cover bg-center"
-        style={{ backgroundImage: "url('/assets/herobg.jpg')" }}
+        style={{ backgroundImage: "url('/assets/hero.png')" }}
       />
-      <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,#050c14_0%,rgba(5,12,20,0.96)_18%,rgba(5,12,20,0.72)_42%,rgba(5,12,20,0.2)_72%,rgba(5,12,20,0.08)_100%)]" />
+      <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,#050c14_0%,rgba(5,12,20,0.96)_20%,rgba(5,12,20,0.72)_60%,rgba(5,12,20,0.2)_72%,rgba(5,12,20,0.08)_100%)] " />
 
       <div className="mx-auto min-h-[650px] flex flex-col lg:flex-row sm:flex-col max-w-8xl items-center gap-12 px-6 pb-16 pt-32 sm:px-10 lg:gap-8 lg:px-20 lg:pb-24 lg:pt-36">
         <div className="relative z-10 max-w-[840px] w-full">
@@ -58,7 +58,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative min-w-0 max-w-5xl w-4xl lg:-mr-24">
+        {/* <div className="relative min-w-0 max-w-5xl w-4xl lg:-mr-24">
           <div className="absolute -inset-5 rounded-[30px] bg-[#136ca1]/10 blur-2xl" />
           <div className="relative overflow-hidden rounded-2xl border border-[#2a4864]  bg-[#071827]/95 shadow-[0_24px_80px_rgba(0,0,0,0.5)]">
             <div className="flex h-11 items-center justify-between border-b border-[#1b354d] px-4 sm:px-5">
@@ -146,10 +146,10 @@ export default function Hero() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
-      <div className="border-t border-[#d6e1ec] bg-[#f5f8fc] px-6 py-14 text-center text-[#122238] sm:px-10 lg:py-16">
+      <div className="border-t border-[#d6e1ec] bg-[#ecedf0] px-6 py-14 text-center text-[#122238] sm:px-10 lg:py-16">
         <h2 className="text-xl font-bold sm:text-2xl">
           Stop asking what people say they can do.
         </h2>
@@ -219,7 +219,7 @@ function Proof({
       <span className="relative flex h-[76px] size-10 w-[76px] items-center justify-center rounded-full bg-gradient-to-br from-[#d9f4ff] via-[#e8edff] to-[#f5dfff] mb-3">
         <div className="flex h-[62px] w-[62px] items-center justify-center rounded-full border border-white/80 bg-[#f5f9ff]">
         {React.cloneElement(icon as React.ReactElement<{ size?: number }>, {
-          size: 38,
+          size: 30,
         })}
           
         </div>
