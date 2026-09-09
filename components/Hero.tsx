@@ -21,21 +21,23 @@ export default function Hero() {
       />
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,#050c14_0%,rgba(5,12,20,0.96)_18%,rgba(5,12,20,0.72)_42%,rgba(5,12,20,0.2)_72%,rgba(5,12,20,0.08)_100%)]" />
 
-      <div className="mx-auto grid min-h-[650px] max-w-7xl items-center gap-12 px-6 pb-16 pt-32 sm:px-10 lg:grid-cols-[0.82fr_1.18fr] lg:gap-8 lg:px-12 lg:pb-24 lg:pt-36">
-        <div className="relative z-10 max-w-[540px]">
+      <div className="mx-auto min-h-[650px] flex flex-col lg:flex-row sm:flex-col max-w-8xl items-center gap-12 px-6 pb-16 pt-32 sm:px-10 lg:gap-8 lg:px-20 lg:pb-24 lg:pt-36">
+        <div className="relative z-10 max-w-[840px] w-full">
           <p className="mb-5 text-[10px] font-bold uppercase tracking-[0.3em] text-[#7190b4]">
             Real work. Verified ability.
           </p>
-          <h1 className="text-4xl font-bold leading-[1.08] tracking-[-0.03em] sm:text-5xl lg:text-[51px]">
+          <h1 className="text-5xl font-bold leading-[1.08] tracking-[-0.03em] sm:text-4xl lg:text-[41px]">
             Your CV tells your story.
             <br />
             Your work proves your ability.
             <br />
-            <span className="bg-gradient-to-r from-[#27a7ff] via-[#617cf8] to-[#ed27db] bg-clip-text text-transparent">
-              PROVE WHAT YOU CAN DO.
-            </span>
           </h1>
-          <p className="mt-6 max-w-[460px] text-sm leading-6 text-[#b2c0ce] sm:text-[15px]">
+
+          <h2 className="bg-gradient-to-r from-[#27a7ff] via-[#617cf8] to-[#ed27db] bg-clip-text text-transparent pt-2 text-5xl font-bold leading-[1.08] tracking-[-0.03em] ">
+            PROVE WHAT YOU CAN DO.
+          </h2>
+
+          <p className="mt-6 max-w-[560px] text-md leading-6 text-[#b2c0ce] sm:text-[20px]">
             Veta helps professionals demonstrate real capability through
             realistic work simulations, giving companies evidence they can
             trust.
@@ -56,12 +58,14 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative min-w-0 lg:-mr-24">
+        <div className="relative min-w-0 max-w-5xl w-4xl lg:-mr-24">
           <div className="absolute -inset-5 rounded-[30px] bg-[#136ca1]/10 blur-2xl" />
-          <div className="relative overflow-hidden rounded-2xl border border-[#2a4864] bg-[#071827]/95 shadow-[0_24px_80px_rgba(0,0,0,0.5)]">
+          <div className="relative overflow-hidden rounded-2xl border border-[#2a4864]  bg-[#071827]/95 shadow-[0_24px_80px_rgba(0,0,0,0.5)]">
             <div className="flex h-11 items-center justify-between border-b border-[#1b354d] px-4 sm:px-5">
               <div className="flex items-center gap-2 text-[9px] font-bold text-white">
-                <span className="text-lg text-[#4ba8ff]">V</span> Product Growth
+                <div className="text-lg text-[#4ba8ff]">
+                 
+                  </div> Product Growth
                 Challenge
               </div>
               <div className="flex items-center gap-2 text-[8px] text-[#7b95af]">
@@ -149,10 +153,10 @@ export default function Hero() {
         <h2 className="text-xl font-bold sm:text-2xl">
           Stop asking what people say they can do.
         </h2>
-        <p className="mt-1 text-xl font-bold bg-gradient-to-r from-[#198df0] to-[#b43ee5] bg-clip-text text-transparent sm:text-2xl">
+        <p className="mt-1 text-xl font-bold bg-gradient-to-r from-[#198df0] to-[#b43ee5] bg-clip-text text-transparent sm:text-4xl">
           Start seeing what they can demonstrate.
         </p>
-        <div className="mx-auto mt-10 grid max-w-6xl grid-cols-2 gap-y-10 sm:grid-cols-4 sm:gap-0">
+        <div className="mx-auto mt-10 grid max-w-7xl grid-cols-2 gap-y-10 sm:grid-cols-4 sm:gap-0">
           <Proof
             icon={<Lightbulb />}
             title="REAL WORK"
@@ -212,13 +216,16 @@ function Proof({
 }) {
   return (
     <div className="flex flex-col items-center px-5 sm:border-r sm:border-[#d7e1eb] sm:last:border-0">
-      <span className="mb-3 flex size-10 items-center justify-center rounded-full border-2 border-[#a5caff] text-[#345578]">
+      <span className="relative flex h-[76px] size-10 w-[76px] items-center justify-center rounded-full bg-gradient-to-br from-[#d9f4ff] via-[#e8edff] to-[#f5dfff] mb-3">
+        <div className="flex h-[62px] w-[62px] items-center justify-center rounded-full border border-white/80 bg-[#f5f9ff]">
         {React.cloneElement(icon as React.ReactElement<{ size?: number }>, {
-          size: 18,
+          size: 38,
         })}
+          
+        </div>
       </span>
-      <strong className="text-[10px] font-bold">{title}</strong>
-      <p className="mt-2 max-w-[150px] text-[9px] leading-4 text-[#66788d]">
+      <strong className="text-[13px] font-bold">{title}</strong>
+      <p className="mt-2 max-w-[150px] text-[12px] leading-4 text-[#66788d]">
         {text}
       </p>
     </div>

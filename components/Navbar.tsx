@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <header className="absolute top-0 left-0 z-50 w-full">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
+      <nav className="mx-auto flex max-w-8xl items-center justify-between px-6 py-5 lg:px-20">
         {/* Logo */}
         <Link href="/" className="shrink-0">
           <Image
