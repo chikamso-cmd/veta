@@ -2,7 +2,11 @@
 
 import {
   ArrowRight,
+  BadgeCheck,
+  BriefcaseBusiness,
   Check,
+  CircleAlert,
+  ClipboardCheck,
   FileText,
   Grid2X2,
   Layers3,
@@ -38,32 +42,42 @@ const traditionalSignals = [
     icon: FileText,
   },
   {
-    title: "Certificates",
+    title: "Screening",
     description: "I completed this program.",
-    icon: Grid2X2,
+    icon: ClipboardCheck,
   },
   {
     title: "Interviews",
     description: "I can explain what I know.",
     icon: UserRound,
   },
+  {
+    title: "Deciscion",
+    description: "I can explain what I know.",
+    icon: BadgeCheck,
+  },
 ];
 
 const vetaEvidence = [
   {
-    title: "Demonstrated Work",
+    title: "Problem",
     description: "Here is what I did.",
-    icon: Grid2X2,
+    icon: CircleAlert,
   },
   {
-    title: "Performance Assessment",
+    title: "Work",
     description: "Here is how I performed.",
-    icon: Star,
+    icon: BriefcaseBusiness,
   },
   {
-    title: "Work Sample",
+    title: "Evidence",
     description: "Here is how I think.",
     icon: FileText,
+  },
+  {
+    title: "Deciscion",
+    description: "Here is how I think.",
+    icon: BadgeCheck,
   },
 ];
 
@@ -254,7 +268,7 @@ export default function ForCompanies() {
             </p>
 
             <h2 className="text-[30px] font-semibold leading-[1.1] tracking-[-0.04em] text-white sm:text-[37px]">
-              Every hire shouldn&apos;t be a gamble.
+              From “I can do it” to “Here’s what I did.”
             </h2>
 
             <p className="mt-2 text-[12px] text-[#7889a2] sm:text-[13px]">

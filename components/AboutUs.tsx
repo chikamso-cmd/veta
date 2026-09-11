@@ -302,16 +302,18 @@ export default function AboutUs() {
             OUR BELIEF
           </p>
 
-          <h2 className="mx-auto mt-4 max-w-[800px] text-[34px] font-semibold leading-[1.1] tracking-[-0.05em] text-[#11223b] sm:text-[44px] md:text-[50px]">
-            Talent deserves a chance to be seen{" "}
+          <h2 className="mx-auto mt-4 max-w-[800px] text-[33px] font-semibold leading-[1.1] tracking-[-0.05em] text-[#11223b] sm:text-[40px] md:text-[40px]">
+            The future of hiring isn’t about better CVs. <br />
             <span className="bg-gradient-to-r from-[#398ef1] to-[#805fe7] bg-clip-text text-transparent">
-              through the work.
+              It’s about better evidence.
             </span>
           </h2>
 
           <p className="mx-auto mt-5 max-w-[610px] text-[13px] leading-[1.7] text-[#75869d] sm:text-[14px]">
-            We are building a better bridge between capable professionals and
-            the companies looking for people who can actually do the work.
+            We believe talented people deserve a chance to demonstrate what
+            they’re capable of. And companies deserve more than a résumé and a
+            45-minute interview when deciding who to hire. Veta is building the
+            evidence layer between talent and opportunity.
           </p>
 
           <Link

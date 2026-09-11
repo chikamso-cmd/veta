@@ -3,13 +3,9 @@ import Link from "next/link";
 import {
   ArrowRight,
   BarChart3,
-  CircleUserRound,
   Lightbulb,
-  Play,
   ShieldCheck,
-  Sparkles,
   Star,
-  Target,
 } from "lucide-react";
 
 export default function Hero() {
@@ -59,96 +55,6 @@ export default function Hero() {
             Evidence <ArrowRight size={15} /> Better Hiring
           </p>
         </div>
-
-        {/* <div className="relative min-w-0 max-w-5xl w-4xl lg:-mr-24">
-          <div className="absolute -inset-5 rounded-[30px] bg-[#136ca1]/10 blur-2xl" />
-          <div className="relative overflow-hidden rounded-2xl border border-[#2a4864]  bg-[#071827]/95 shadow-[0_24px_80px_rgba(0,0,0,0.5)]">
-            <div className="flex h-11 items-center justify-between border-b border-[#1b354d] px-4 sm:px-5">
-              <div className="flex items-center gap-2 text-[9px] font-bold text-white">
-                <div className="text-lg text-[#4ba8ff]">
-                 
-                  </div> Product Growth
-                Challenge
-              </div>
-              <div className="flex items-center gap-2 text-[8px] text-[#7b95af]">
-                <Play size={10} className="fill-current" /> In progress{" "}
-                <CircleUserRound size={16} className="text-[#e794c8]" />
-              </div>
-            </div>
-            <div className="grid min-h-[330px] grid-cols-[112px_1fr] sm:grid-cols-[145px_1fr]">
-              <aside className="border-r border-[#1b354d] bg-[#081421] p-3 sm:p-4">
-                <p className="mb-4 text-[7px] uppercase tracking-[0.15em] text-[#617a94]">
-                  Overview
-                </p>
-                <div className="space-y-3 text-[8px] text-[#8095aa]">
-                  <div className="rounded-md bg-[#1c3150] px-2 py-2 text-white">
-                    Company Context
-                  </div>
-                  <div>Product Strategy</div>
-                  <div>Customer Feedback</div>
-                  <div>Data Insights</div>
-                  <div>Challenges Brief</div>
-                  <div>Responses</div>
-                  <div>Submissions</div>
-                </div>
-              </aside>
-              <div className="min-w-0 p-4 sm:p-6">
-                <div className="mb-5 flex items-start justify-between gap-4">
-                  <div>
-                    <p className="text-[9px] text-[#7188a2]">
-                      Product Growth Challenge
-                    </p>
-                    <h2 className="mt-1 text-sm font-bold sm:text-base">
-                      Approach the challenge with fresh eyes.
-                    </h2>
-                  </div>
-                  <span className="rounded-full border border-[#314e6d] px-2 py-1 text-[7px] text-[#8ca4bc]">
-                    02:43:15 left
-                  </span>
-                </div>
-                <div className="rounded-xl border border-[#0d4a78] bg-[#08233a]/80 p-4">
-                  <div className="flex items-center gap-2 text-[9px] font-semibold">
-                    <Target size={13} className="text-[#4ba8ff]" /> Company
-                    Context{" "}
-                    <span className="text-[7px] text-[#7390a9]">01 / 05</span>
-                  </div>
-                  <p className="mt-2 max-w-[340px] text-[8px] leading-4 text-[#7792aa]">
-                    A fast-growing fintech startup focused on making digital
-                    banking simple and accessible.
-                  </p>
-                  <div className="mt-5 grid gap-3 sm:grid-cols-2">
-                    <Metric
-                      label="Activation Rate"
-                      value="12.4%"
-                      change="+32%"
-                    />
-                    <Metric
-                      label="Monthly Active Users"
-                      value="48.2K"
-                      change="+16%"
-                    />
-                  </div>
-                </div>
-                <div className="mt-4 flex items-end justify-between gap-3">
-                  <div className="h-12 flex-1 rounded bg-[#081522] p-2">
-                    <div className="flex items-center justify-between text-[7px] text-[#8198ad]">
-                      <span>Performance trend</span>
-                      <span className="text-[#ed4a90]">+24.8%</span>
-                    </div>
-                    <div className="mt-3 h-px w-full bg-gradient-to-r from-[#2bb4ff] via-[#b735be] to-[#ed347f]" />
-                  </div>
-                  <div className="w-24 rounded-lg border border-[#533c7d] bg-[#171934] p-2 text-[8px] text-[#bcc4e1]">
-                    <div className="mb-2 flex items-center gap-1">
-                      <Sparkles size={10} className="text-[#be75ff]" /> Evidence
-                    </div>
-                    <div>Problem framing</div>
-                    <div>Analysis quality</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
 
       <div className="border-t border-[#d6e1ec] bg-[#ecedf0] px-6 py-14 text-center text-[#122238] sm:px-10 lg:py-16">
