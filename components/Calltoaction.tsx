@@ -1,10 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import {
-  ArrowRight,
-  X,
-} from "lucide-react";
+import { ArrowRight, X } from "lucide-react";
 import { FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import Image from "next/image";
 
@@ -43,14 +40,15 @@ export default function CallToAction() {
             {/* Main CTA text */}
             <div className="max-w-[610px]">
               <p className="text-[16px] font-medium leading-[1.35] tracking-[-0.02em] text-white sm:text-[19px] md:text-[21px]">
-                The future of opportunity should be based
+                Don&apos;t gamble on potential.
                 <br className="hidden sm:block" />
-                on what you can demonstrate.
+                See it in action.
               </p>
 
               <h2 className="mt-2 text-[23px] font-semibold uppercase leading-[1.1] tracking-[-0.035em] text-transparent sm:text-[28px] md:text-[30px]">
                 <span className="bg-gradient-to-r from-[#42a0ff] via-[#786cff] to-[#d44fe1] bg-clip-text">
-                  Not just what your CV says.
+                  Give candidates a real opportunity to prove themselves. Give
+                  your hiring team evidence they can trust.
                 </span>
               </h2>
             </div>
@@ -112,12 +110,12 @@ export default function CallToAction() {
                 className="inline-flex items-center"
                 aria-label="Veta home"
               >
-               <Image
-                src="/assets/veta.png"
-                alt="Veta logo"
-                width={100}
-                height={40}
-              />
+                <Image
+                  src="/assets/veta.png"
+                  alt="Veta logo"
+                  width={100}
+                  height={40}
+                />
               </Link>
 
               <p className="mt-4 max-w-[300px] text-[9px] font-medium uppercase leading-[1.5] tracking-[0.04em] text-[#71839c] sm:text-[10px]">

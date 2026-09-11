@@ -115,13 +115,13 @@ export default function CapabilityAssessment() {
 
             {/* Heading */}
             <h2 className="text-[31px] font-semibold leading-[1.1] tracking-[-0.04em] text-[#122138] sm:text-[37px] lg:text-[38px]">
-              We assess what you demonstrate.
+              Here’s what “prove it” looks like.
             </h2>
 
             {/* Description */}
             <p className="mt-2 max-w-[550px] text-[11px] leading-[1.55] text-[#8494aa] sm:text-[12px]">
-              Performance is assessed against the capabilities required to solve
-              the challenge successfully.
+              Your work is evaluated across the competencies that matter for the
+              role, creating a clear record of what you demonstrated.
             </p>
 
             {/* Capability list */}
@@ -166,7 +166,7 @@ export default function CapabilityAssessment() {
             <div className="w-full rounded-[14px] border border-[#dce4ee] bg-white px-6 py-5 shadow-[0_8px_30px_rgba(36,62,96,0.025)] sm:px-7 sm:py-6">
               {/* Header */}
               <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#8194ad]">
-                VETA PERFORMANCE REPORT
+                VETA EVIDENCE SCORECARD
               </p>
 
               {/* Results */}
@@ -201,7 +201,7 @@ export default function CapabilityAssessment() {
                   </p>
 
                   <p className="mt-1.5 max-w-[230px] text-[9px] leading-[1.5] text-[#8594a8] sm:text-[10px]">
-                    Strong analytical reasoning and prioritization.
+                    Strong analysis, prioritization and problem solving.
                   </p>
                 </div>
 

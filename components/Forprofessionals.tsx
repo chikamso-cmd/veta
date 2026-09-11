@@ -11,24 +11,23 @@ import {
 
 const benefits = [
   {
-    title: "Realistic Work Experience",
-    description:
-      "Practice with scenarios that replicate real professional work.",
+    title: "Work on problems that matter",
+    description: "Solve realistic challenges with meaningful constraints.",
     icon: BriefcaseBusiness,
   },
   {
-    title: "Demonstrated Capability",
-    description: "Show your strengths in decision-making and problem-solving.",
+    title: "Experience a startup environment",
+    description: "See what the role feels like when the work is real.",
     icon: Award,
   },
   {
-    title: "Performance Feedback",
-    description: "Understand your strengths and areas for improvement.",
+    title: "Make decisions under constraints",
+    description: "Balance trade-offs and move a problem forward.",
     icon: BarChart3,
   },
   {
-    title: "Evidence That Stands Out",
-    description: "Build work samples that demonstrate what you can do.",
+    title: "Build a portfolio of work",
+    description: "Create evidence that goes beyond certificates.",
     icon: FileCheck2,
   },
 ];
@@ -55,7 +54,7 @@ export default function ForProfessionals() {
 
             {/* Heading */}
             <h2 className="max-w-[570px] text-[34px] font-semibold leading-[1.08] tracking-[-0.045em] text-white sm:text-[42px] md:text-[43px] lg:text-[30px] xl:text-[30px]">
-              Don&apos;t just say you&apos;re capable.
+              Don&apos;t just say you&apos;re good.
               <br />
               <span className="bg-gradient-to-r from-[#4198ff] to-[#8d71ff] bg-clip-text text-transparent">
                 Show it.
@@ -64,8 +63,13 @@ export default function ForProfessionals() {
 
             {/* Description */}
             <p className="mt-5 max-w-[500px] text-[13px] leading-[1.55] text-[#91a2b9] sm:text-[14px]">
-              Build stronger evidence of your ability by solving realistic
-              professional challenges.
+              Your CV says you have the skills. Your interview says you have the
+              potential. Your work can prove it.
+            </p>
+
+            <p className="mt-3 max-w-[500px] text-[13px] leading-[1.55] text-[#91a2b9] sm:text-[14px]">
+              Veta puts you inside real-world challenges so you can build
+              evidence that can open doors.
             </p>
 
             {/* Benefits */}
@@ -107,7 +111,7 @@ export default function ForProfessionals() {
               type="button"
               className="mt-8 inline-flex h-[45px] items-center gap-4 rounded-full bg-gradient-to-r from-[#358cf3] to-[#7963ed] px-6 text-[11px] font-semibold text-white shadow-[0_8px_30px_rgba(63,118,235,0.2)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_12px_35px_rgba(63,118,235,0.32)] active:translate-y-0"
             >
-              Start Your First Challenge
+              Explore Simulations
               <span className="flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
                 <ArrowRight size={13} strokeWidth={2} />
               </span>

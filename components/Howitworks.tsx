@@ -12,34 +12,37 @@ import {
 const steps = [
   {
     number: "01",
-    title: "DISCOVER A CHALLENGE",
-    description: "Explore a realistic professional scenario.",
+    title: "Define What You Need",
+    description:
+      "Bring us a real problem your company is solving, a challenge you’ve defined for candidates, or simply the role and skills you want to assess.",
     icon: Search,
   },
   {
     number: "02",
-    title: "ENTER THE WORK ENVIRONMENT",
+    title: "We Build The Simulation",
     description:
-      "Receive company context, data, customer feedback and constraints.",
+      "Veta turns the problem into a structured, branded work simulation designed around the competencies that matter to your company.",
     icon: Grid2X2,
   },
   {
     number: "03",
-    title: "SOLVE A REAL PROBLEM",
-    description: "Research, analyze, prioritize and make decisions.",
+    title: "Let Talent Do The Work",
+    description:
+      "Candidates step into the role, work through the problem and make decisions within a defined startup-like environment.",
     icon: Lightbulb,
   },
   {
     number: "04",
-    title: "GET EVALUATED",
-    description: "Your work is assessed based on demonstrated capability.",
+    title: "See The Evidence",
+    description:
+      "Their work is evaluated against the competencies you’ve identified. Not assumptions. Not promises. Evidence.",
     icon: ClipboardCheck,
   },
   {
     number: "05",
-    title: "BUILD EVIDENCE",
+    title: "Find Your Standouts",
     description:
-      "Your performance becomes evidence of what you can actually do.",
+      "Identify the people who demonstrate the ability to do the work—not simply the ability to interview well.",
     icon: FileText,
   },
 ];
@@ -58,8 +61,8 @@ export default function HowItWorks() {
           </p>
 
           <h2 className="text-[32px] font-semibold leading-[1.08] tracking-[-0.04em] text-[#101c2e] sm:text-[40px] lg:text-[43px]">
-            Experience the work before
-            <br className="hidden sm:block" /> the opportunity.
+            Put candidates in the work.
+            <br className="hidden sm:block" /> See what happens.
           </h2>
         </div>
 
@@ -159,8 +162,8 @@ export default function HowItWorks() {
             </h3>
 
             <p className="mt-4 max-w-[520px] text-[12px] leading-[1.6] text-[#71809a] sm:text-[13px]">
-              A product&apos;s first-transaction activation has dropped
-              significantly.
+              First-transaction activation has fallen from 38% to 29%. What
+              would you do?
             </p>
 
             {/* Problem / Task */}
@@ -171,7 +174,7 @@ export default function HowItWorks() {
                 </p>
 
                 <p className="mt-3 text-[12px] leading-[1.55] text-[#71809a]">
-                  First-transaction activation has fallen significantly.
+                  First-transaction activation has fallen from 38% to 29%.
                 </p>
               </div>
 
@@ -181,7 +184,8 @@ export default function HowItWorks() {
                 </p>
 
                 <p className="mt-3 text-[12px] leading-[1.55] text-[#71809a]">
-                  Diagnose the problem and recommend an approach.
+                  Investigate the problem, make decisions and propose a
+                  solution.
                 </p>
               </div>
             </div>

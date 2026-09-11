@@ -67,6 +67,29 @@ const vetaEvidence = [
   },
 ];
 
+const companyBenefits = [
+  {
+    title: "Reduce Screening Time",
+    description:
+      "Give candidates a real-world challenge and quickly identify those who demonstrate the skills you need.",
+  },
+  {
+    title: "Reduce Hiring Resources",
+    description:
+      "Spend less internal time and effort filtering candidates who may not be the right fit.",
+  },
+  {
+    title: "Make Better Hiring Decisions",
+    description:
+      "See how candidates think, solve problems and perform before making a hiring decision.",
+  },
+  {
+    title: "Discover More Than CVs Can Show",
+    description:
+      "Find capable talent based on demonstrated ability—not just experience, credentials or job titles.",
+  },
+];
+
 export default function ForCompanies() {
   return (
     <section id="for-companies" className="w-full overflow-hidden">
@@ -85,22 +108,45 @@ export default function ForCompanies() {
 
               {/* Heading */}
               <h2 className="text-[31px] font-semibold leading-[1.12] tracking-[-0.04em] text-[#102038] sm:text-[37px] md:text-[40px] lg:text-[36px] xl:text-[40px]">
-                Discover talent through evidence,
-                <br className="hidden sm:block" /> not assumptions.
+                Find the right talent faster.
               </h2>
 
               {/* Description */}
               <p className="mt-5 max-w-[400px] text-[12px] leading-[1.6] text-[#6f8098] sm:text-[13px]">
-                Veta helps companies identify people who have demonstrated the
-                capability to do the work.
+                Hiring can mean reviewing hundreds of CVs, conducting multiple
+                interviews and still wondering if you’ve found the right person.
+              </p>
+              <p className="mt-3 max-w-[400px] text-[12px] leading-[1.6] text-[#6f8098] sm:text-[13px]">
+                Veta helps you spend less time screening and more time
+                identifying people who can actually do the job.
               </p>
 
+              <div>
+                <p className="mb-3 mt-6 text-[10px] font-semibold uppercase tracking-[0.15em] text-[#7795bc] sm:text-[11px]">
+                  With Veta, you can:
+                </p>
+                <div className="grid gap-3 sm:grid-cols-2">
+                  {companyBenefits.map((benefit) => (
+                    <div
+                      key={benefit.title}
+                      className="rounded-[10px] border border-[#e4ebf3] bg-white/70 p-3.5"
+                    >
+                      <h3 className="text-[11px] font-semibold text-[#293950]">
+                        {benefit.title}
+                      </h3>
+                      <p className="mt-1.5 text-[10px] leading-[1.5] text-[#7a899d]">
+                        {benefit.description}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
               {/* CTA */}
               <button
                 type="button"
                 className="mt-8 inline-flex h-[44px] items-center gap-4 rounded-full bg-gradient-to-r from-[#3188ef] to-[#7564e9] px-6 text-[11px] font-semibold text-white shadow-[0_8px_22px_rgba(65,111,224,0.2)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_12px_28px_rgba(65,111,224,0.3)]"
               >
-                Run a Veta Talent Challenge
+                Become a Veta Partner
                 <ArrowRight size={14} strokeWidth={2} />
               </button>
             </div>

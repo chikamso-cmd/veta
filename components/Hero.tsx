@@ -27,35 +27,37 @@ export default function Hero() {
             Real work. Verified ability.
           </p>
           <h1 className="text-5xl font-bold leading-[1.08] tracking-[-0.03em] sm:text-4xl lg:text-[41px]">
-            Your CV tells your story.
-            <br />
-            Your work proves your ability.
-            <br />
+            Your next hire shouldn’t be a gamble.
           </h1>
 
-          <h2 className="bg-gradient-to-r from-[#27a7ff] via-[#617cf8] to-[#ed27db] bg-clip-text text-transparent pt-2 text-5xl font-bold leading-[1.08] tracking-[-0.03em] ">
-            PROVE WHAT YOU CAN DO.
+          <h2 className="bg-gradient-to-r from-[#27a7ff] via-[#617cf8] to-[#ed27db] bg-clip-text pt-2 text-4xl font-bold leading-[1.08] tracking-[-0.03em] text-transparent">
+            See what candidates can actually do before you hire them.
           </h2>
 
           <p className="mt-6 max-w-[560px] text-md leading-6 text-[#b2c0ce] sm:text-[20px]">
-            Veta helps professionals demonstrate real capability through
-            realistic work simulations, giving companies evidence they can
-            trust.
+            Veta helps companies identify strong talent through real-world work.
+            Candidates solve company-defined or role-specific problems, creating
+            evidence that helps hiring teams make better decisions.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              href="#challenges"
+              href="#for-companies"
               className="inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-[#9548f5] to-[#6684ff] px-6 py-3 text-xs font-semibold shadow-[0_10px_30px_rgba(111,82,255,0.28)] transition-transform hover:scale-[1.03]"
             >
-              Explore a Challenge <ArrowRight size={15} />
+              Partner With Veta <ArrowRight size={15} />
             </Link>
             <Link
-              href="#companies"
+              href="#how-it-works"
               className="inline-flex items-center rounded-full border border-[#38516b] px-6 py-3 text-xs font-semibold text-[#e1eaf3] transition-colors hover:border-[#819bb8] hover:bg-white/5"
             >
-              For Companies
+              Explore Simulations
             </Link>
           </div>
+          <p className="mb-5 mt-5 flex gap-2 text-[10px] font-bold uppercase tracking-[0.3em] text-[#7190b4]">
+            Real Problem <ArrowRight size={15} /> Real Work{" "}
+            <ArrowRight size={15} />
+            Evidence <ArrowRight size={15} /> Better Hiring
+          </p>
         </div>
 
         {/* <div className="relative min-w-0 max-w-5xl w-4xl lg:-mr-24">
@@ -218,10 +220,9 @@ function Proof({
     <div className="flex flex-col items-center px-5 sm:border-r sm:border-[#d7e1eb] sm:last:border-0">
       <span className="relative flex h-[76px] size-10 w-[76px] items-center justify-center rounded-full bg-gradient-to-br from-[#d9f4ff] via-[#e8edff] to-[#f5dfff] mb-3">
         <div className="flex h-[62px] w-[62px] items-center justify-center rounded-full border border-white/80 bg-[#f5f9ff]">
-        {React.cloneElement(icon as React.ReactElement<{ size?: number }>, {
-          size: 30,
-        })}
-          
+          {React.cloneElement(icon as React.ReactElement<{ size?: number }>, {
+            size: 30,
+          })}
         </div>
       </span>
       <strong className="text-[13px] font-bold">{title}</strong>
