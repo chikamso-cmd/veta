@@ -47,7 +47,7 @@ export default function CallToAction() {
 
               <h2 className="mt-2 text-[23px] font-semibold uppercase leading-[1.1] tracking-[-0.035em] text-transparent sm:text-[28px] md:text-[30px]">
                 <span className="bg-gradient-to-r from-[#42a0ff] via-[#786cff] to-[#d44fe1] bg-clip-text">
-                  Give candidates a real opportunity to prove themselves. Give
+                  <span className="text-white">Give candidates a real opportunity to prove themselves.</span> Give
                   your hiring team evidence they can trust.
                 </span>
               </h2>

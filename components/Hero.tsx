@@ -13,7 +13,7 @@ export default function Hero() {
     <section className="relative isolate overflow-hidden bg-[#050c14] text-white">
       <div
         className="absolute inset-0 -z-20 bg-cover bg-center"
-        style={{ backgroundImage: "url('/assets/hero.png')" }}
+        style={{ backgroundImage: "url('/assets/hero12.png')" }}
       />
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,#050c14_0%,rgba(5,12,20,0.96)_20%,rgba(5,12,20,0.72)_60%,rgba(5,12,20,0.2)_72%,rgba(5,12,20,0.08)_100%)] " />
 
