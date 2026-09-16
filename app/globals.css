@@ -12,6 +12,12 @@
   --font-mono: var(--font-geist-mono);
 }
 
+:root {
+  --font-inter: "Segoe UI", sans-serif;
+  --font-geist-sans: "Segoe UI", sans-serif;
+  --font-geist-mono: Consolas, "Courier New", monospace;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
